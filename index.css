@@ -1,0 +1,92 @@
+     .entrada{
+            border-radius: 1px;
+            height: 2pc;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0f0a01, #441508);
+        }
+
+        .container{
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            width: 100%;
+            max-width: 450px;
+        }
+
+        .logo{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo h1{
+            color: #fc4a1a;
+            font-size: 28px;
+        }
+
+        .logo p{
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .form-group{
+            margin-bottom: 20px;
+        }
+
+        label{
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        select{
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        select:focus{
+            outline: none;
+            border-color: #fc4a1a;
+        }
+
+        button{
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            background: #fc4a1a;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover{
+            background: #e53e12;
+            transform: translateY(-2px);
+        }
+
+        .footer{
+            margin-top: 20px;
+            text-align: center;
+            color: #777;
+            font-size: 13px;
+        }

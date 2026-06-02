@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem Estoque Solar</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            <h1>📦 Contagem de Estoque</h1>
+            <p>Selecione o grupo para gerar a contagem</p>
+        </div>
+
+        <form action="" method="">
+
+            <div class="form-group">
+                <label for="grupo">Escolha o Grupo</label>
+
+                <select name="grupo" id="grupo">
+                    <option>MOVEIS</option>
+                    <option>COLCHOES E BOX</option>
+                    <option>LAZER</option>
+                    <option>ESTOFADOS</option>
+                    <option>TELEFONIA</option>
+                    <option>INFORMATICA</option>
+                    <option>ELETRODOMÉSTICOS</option>
+                    <option>ELETROPORTATEIS</option>
+                    <option>UTILIDADES DOMÉSTICAS</option>
+                    <option>BEBÊ</option>
+                    <option>ÁUDIO / VÍDEO</option>
+                    <option>ESPORTE</option>
+                </select> <br><br>
+                 <label>Senha:</label>
+                <input type="number" id="senha" class="entrada" required>
+            </div>
+
+            <button type="submit" onclick="acionarBotao()">
+                GERAR CONTAGEM
+            </button>
+
+        </form>
+
+        <div class="footer">
+            Sistema de Controle de Estoque
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
